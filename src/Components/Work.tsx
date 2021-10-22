@@ -1,3 +1,5 @@
+
+
 interface workProps {
     title: string
     subtitle: string
@@ -10,6 +12,7 @@ const Work = ({title, subtitle}: workProps) =>
     <a target="blank" href="https://github.com/Wiardus">
         <img id="github" src="/pics/GitHub-Emblem.png" alt="Github"/>
     </a>
+
     
 </div>
 
