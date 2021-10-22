@@ -15,7 +15,7 @@ function App() {
           <Header title={'My name is Ynte Wiardus Braaksma'} subtitle={'I am a Web developer, multimedia designer and musician'}/> 
           <summary>I like to design and develop meaningful multimedia solutions. <br/> Scroll down to see more...</summary>
         </div>              
-          <About title={'My Work'} subtitle={'Various Highlights:'}/>              
+          <About title={'My Work'} subtitle={'Click below to find my projects...'}/>              
           <Skills />    
           <Music />  
       </div>    
