@@ -1,3 +1,8 @@
+import html from './html5.png'
+import css from './css3.png'
+import js from './js logo.png'
+import react from './react logo.jpg'
+
 const Skills = () => 
     <div className="skills">
         <h1 id="skillsHeader">Skills and Experience</h1>
@@ -21,10 +26,10 @@ const Skills = () =>
 
         <h3>Skills</h3>
     <div className="skillPics">
-        <img src="/pics/html5.png" alt="HTML5" />
-        <img src="/pics/css3.png" alt="CSS3"/>
-        <img src="/pics/js logo.png" alt="JavaScript" id="jsImg"/>
-        <img src="/pics/react logo.jpg" alt="React" id="reactImg"/>
+        <img src={html} alt="HTML5" />
+        <img src={css} alt="CSS3"/>
+        <img src={js} alt="JavaScript" id="jsImg"/>
+        <img src={react} alt="React" id="reactImg"/>
     </div>
 
     </div>
