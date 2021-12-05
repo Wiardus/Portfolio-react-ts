@@ -2,11 +2,11 @@ import Navbar from './Components/Navbar';
 import './App.scss';
 import Header from './Components/Header';
 import About from './Components/Work';
-import Skills from './Components/Skills';
+import Skills from './Components/Skills'; 
 import Music from './Components/Music';
 
 function App() {
-
+  
   return (
     <div className="App">
         <Navbar href={"#header"} />
