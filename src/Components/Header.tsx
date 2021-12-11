@@ -1,8 +1,6 @@
 import Arrow from './Arrow'
 import ynte from './Tesla ynte.jpeg';
 
-
-
 interface headerProps {
     title: string
     subtitle: string
