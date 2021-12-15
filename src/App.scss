@@ -163,6 +163,7 @@ body {
   height: 100vh;
   background: linear-gradient(to right, #1c92d2, #f2fcfe);
   font-family: $font-stack;
+  letter-spacing: 1px;
 
   .skillPics {
     display: flex;
@@ -172,12 +173,15 @@ body {
 
   #skillsHeader {
     text-align: center;
+    position: absolute;
+    margin-left: 800px;
   }
   
   ul {
     font-size: 1.25em;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
+    line-height: 30px;
   }
   
   p {
